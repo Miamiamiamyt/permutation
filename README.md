@@ -1,1 +1,2 @@
 # permutation
+利用js制作动画展示全排列的逻辑

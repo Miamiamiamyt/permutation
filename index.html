@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#content3 :nth-child(4n+1)
+{
+ clear:both;
+}
+</style>
+<link href="style.css" rel="stylesheet">
+<script src="pailie.js"></script>
+<script type="text/javascript" src="text.js"></script>
+</head>
+<body>
+<div id="header">
+<h1><font color="#FFFFFF">全排列大作业</font></h1>
+</div>
+<div id="content1">
+  <ul id="list">
+  <p><font size=2>请输入由4个数字组成的序列</font></p>
+  <li><input type="text" id="number1" placeholder="输入数字1" ></input></li>
+  <li><input type="text" id="number2" placeholder="输入数字2" ></input></li>
+  <li><input type="text" id="number3" placeholder="输入数字3" ></input></li>
+  <li><input type="text" id="number4" placeholder="输入数字4" ></input></li>
+  <li><input type="button" value="确认" onclick="text()"></input></li>
+  <li><input type="text" id="speed" placeholder="速度(>=700)"></input></li>
+  <li><input type="button" value="下一步" onclick="xiayibu()"></input></li>
+  <li><input type="button" value="上一步" onclick="shangyibu()"></input></li>
+  <li><input type="button" value="开始演示" onclick="kaishipailie()"></input></li>
+  <li><input type="button" value="反向演示" onclick="fanxiangyanshi()"></input></li>
+  <li><input type="button" value="暂停" onclick="zanting()"></input></li>
+  </ul>
+</div>
+<div id="content2">
+<div id="step">
+</div>
+<div id="kuang">
+</div>
+</div>
+<div id="content3">
+</div>
+<div id="footer">
+<p><font color="#FFFFFF">create by myt</font></p>
+</div>
+</body>
+</html>
